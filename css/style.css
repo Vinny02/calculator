@@ -1,0 +1,39 @@
+#calc {
+  border: 5px solid black;
+  width: 25%;
+  height: 450px;
+  margin: auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+#screenborder {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100px;
+  padding: 0px 40px;
+  padding-top: 40px;
+}
+
+#screen {
+  border: 2px solid black;
+  width: 100%;
+  height: 50px;
+}
+
+#buttoncontainer {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.calcbutton {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
